@@ -1,0 +1,70 @@
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "League Spartan", sans-serif;
+}
+
+.top {
+    padding: 0;
+    background-color:  hsl(180, 29%, 50%)
+}
+.top img{
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+body{
+    background-color: hsl(180, 52%, 96%);
+}
+
+.job1{
+    box-shadow: 0 4px 8px 0 hsl(180, 29%, 50%, 0.2);
+    margin-top: 5%;
+    margin-left: 10%;
+    border-radius: 2px;
+    border-color: hsl(180, 8%, 52%);
+    width: 80%;
+    border-left: 6px solid hsl(180, 29%, 50%);
+    padding: 12px 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.job {
+    box-shadow: 0 4px 8px 0 hsl(180, 29%, 50%, 0.2);
+    border-color: hsl(180, 8%, 52%);
+    width: 80%;
+    margin-top: 3%;
+    margin-left: 10%;
+    align-items: center;
+    justify-content: center;
+}
+.grid{
+    display: flex;
+    align-items: center;
+}
+
+.inline{
+    display: flex;
+}
+
+.inline h4{
+    margin-top: 1%;
+    padding-right: 5px;
+    color: hsl(180, 29%, 50%)
+}
+
+.inline .new{
+    background-color: hsl(180, 29%, 50%);
+    border-radius: 10px;
+    color: white;
+    
+}
+/* .jobs image{
+    padding-right: 1px;
+} */
